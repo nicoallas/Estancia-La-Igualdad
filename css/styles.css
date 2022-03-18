@@ -1,0 +1,10 @@
+/* Selectores (Universal) */
+*{
+    list-style: none;
+
+}
+
+/* Selectores (Etiqueta) */
+body{
+    background-color: #fcf808;
+}
