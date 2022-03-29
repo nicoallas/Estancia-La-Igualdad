@@ -1,59 +1,35 @@
-/* Selectores (Universal) */
-*{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+nav{
+    background:black; 
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
 }
-/* Selectores (Etiqueta) */
-body{
-    margin: 0;
-    padding: 0;
-    padding-top: 80px;
-    background-color: white;
+.nav-enlace{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.nav-enlace:hover{
+    background: gray;
 }
 h1{
     color: black;
     text-align: center;
+    background: yellow;
+    color: brown;
 }
 h2{
     color: black;
     text-align: center;
 }
-p{
-    color: red;
-    font-family: cursive; /* Fuente letra */
+.columna{
+    background: yellow;
+    color: black;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
 }
-/* Selector ID */
-#estancia{
-    font-family:fantasy;
-    font-size:xx-large;
-    color:black;
-    padding: 20px 20px;
-    text-decoration: none;
+.padre{
+    display: flex;
 }
-/* Selectores CLASS */
-.nav-enlace{
-    display:flex; /* Formato horizontal de menu */
-    justify-content: flex-end;
-    float:right;
-    background: #FFE32E;  /* Color del "boton" */
-    color:black; /* Color de letra */
-    padding: 20px 20px; /* Espacio entre "botones" */
-    text-decoration: none; /* Sacarla linea de hipervinculo */
-}
-.nav-enlace:hover{ /* COLOR AL PONER EL CURSOR */
-    background: #FFE32E;
-}
-nav{
-    background: #FFE32E;
-    padding: 15px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: fixed; /* Fijamos barra de menu */
-}
-
-
-
-
-
