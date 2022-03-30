@@ -1,35 +1,78 @@
 nav{
-    background:black; 
-    padding: 20px;
+    background:#ffffff; 
+    padding: 10px;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
 }
 .nav-enlace{
     display: inline-block;
     text-decoration: none;
-    color: white;
-    padding: 20px;
+    color: #666;
+    padding: 10px;
 }
 .nav-enlace:hover{
-    background: gray;
+    color: #000000;
 }
 h1{
-    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-style: ;
+    color: #000000;
     text-align: center;
-    background: yellow;
-    color: brown;
 }
 h2{
     color: black;
     text-align: center;
 }
-.columna{
+.texto{
     background: yellow;
     color: black;
     padding: 20px;
-    width: 25%;
+    width: 50%;
     margin: 10px;
 }
 .padre{
     display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}   
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: #d3cdcd;
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #555;
+}
+.precio{
+    font-size: 50px;
+    color: #852020;
+}
+.btn-precio{
+    background: #a50626;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: #852020;
+}
+img{
+    width: 55%;
+    height: 350px;
+}
+.img-portada{
+    text-align: center;
 }
