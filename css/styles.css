@@ -1,4 +1,9 @@
+body{
+    font-family: 'Amatic SC', cursive;
+}
 nav{
+    font-size: 25px;
+    font-weight: 700;
     background:#ffffff; 
     padding: 10px;
     display: flex;
@@ -8,15 +13,14 @@ nav{
     display: inline-block;
     text-decoration: none;
     color: #666;
-    padding: 10px;
+    padding: 30px;
 }
 .nav-enlace:hover{
     color: #000000;
 }
 h1{
-    font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    font-style: ;
+    font-size: 80px;
     color: #000000;
     text-align: center;
 }
