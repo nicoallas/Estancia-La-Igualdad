@@ -23,6 +23,8 @@ h1{
     font-size: 80px;
     color: #000000;
     text-align: center;
+    animation: bounce;
+    animation-duration: 2s;
 }
 h2{
     padding: 10px;
